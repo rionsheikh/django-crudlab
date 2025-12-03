@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./tailwindcss_input.css -o ../static/css/tailwind.css --watch",
+    "build": "npx tailwindcss -i ./tailwindcss_input.css -o ../static/css/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "4.1.17",
+    "tailwindcss": "4.1.17"
+  }
+}

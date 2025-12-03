@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@source "../v1/templates/";
+
+.form_input{
+    @apply border border-gray-300 p-2 w-80 mt-1 rounded;
+}
+
+/* 
+//To pregenerate css
+@source inline('border border-gray-300 p-2 w-80 mt-1 rounded');
+ */

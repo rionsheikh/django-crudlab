@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+.vscode/
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.py[cod]
+*/migrations/__pycache__/
+
+# Environment
+.env
+*.env
+venv/
+ENV/
+env/
+.venv/
+
+# Django static and media files
+/staticfiles/
+*.collectstatic
+
+#Node/tailwinds
+node_modules/
+**/node_modules/
+dist/
+.cache/
+package-lock.json  
+npm-debug.log
+##
+static/css/tailwind.css
